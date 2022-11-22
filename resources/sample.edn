@@ -1,0 +1,4 @@
+{:queries {:sayHello {:type        (non-null String)
+                      :args        {:name {:type (non-null String)}}
+                      :description "Say hello!"
+                      :resolve     :say-hello}}}
